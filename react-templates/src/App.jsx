@@ -1,10 +1,9 @@
-import Header1 from "./Components/Headers/HeaderWithMenu/header1"
-
+import MainPage from "./Pages/MainPage"
 function App() {
 
   return (
     <>
-      <Header1 />
+      <MainPage />
     </>
   )
 }
