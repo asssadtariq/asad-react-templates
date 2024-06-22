@@ -11,8 +11,8 @@ const LogoFooter = () => {
     return (
         <div>
             <div className="bg-slate-100 px-16 pt-16">
-                <div className="footer--up grid lg:grid-cols-5 md:grid-cols-5 grid-cols-1 lg:gap-0 md:gap-0 gap-6 justify-items-center w-full">
-                    <div>
+                <div className="footer--up grid lg:grid-cols-5 md:grid-cols-4 grid-cols-1 lg:gap-0 md:gap-0 gap-6 md:justify-items-center lg:justify-items-center justify-items-start w-full">
+                    <div className="lg:col-span-1 md:col-span-4 md:my-4">
                         <h1 className="text-3xl">Your Logo Here</h1>
                         <p className="text-sm my-1">Your Tagline here</p>
                         <p className="lg:mt-8">Subscribe Now</p>
